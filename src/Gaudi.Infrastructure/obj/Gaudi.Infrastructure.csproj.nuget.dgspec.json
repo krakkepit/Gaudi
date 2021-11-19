@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_projects\\Gaudi.Infrastructure\\Gaudi.Infrastructure\\Gaudi.Infrastructure\\Gaudi.Infrastructure.csproj": {}
+    "C:\\_projects\\Gaudi.Infrastructure\\src\\Gaudi.Infrastructure\\Gaudi.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\_projects\\Gaudi.Infrastructure\\Gaudi.Infrastructure\\Gaudi.Infrastructure\\Gaudi.Infrastructure.csproj": {
+    "C:\\_projects\\Gaudi.Infrastructure\\src\\Gaudi.Infrastructure\\Gaudi.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_projects\\Gaudi.Infrastructure\\Gaudi.Infrastructure\\Gaudi.Infrastructure\\Gaudi.Infrastructure.csproj",
+        "projectUniqueName": "C:\\_projects\\Gaudi.Infrastructure\\src\\Gaudi.Infrastructure\\Gaudi.Infrastructure.csproj",
         "projectName": "Gaudi.Infrastructure",
-        "projectPath": "C:\\_projects\\Gaudi.Infrastructure\\Gaudi.Infrastructure\\Gaudi.Infrastructure\\Gaudi.Infrastructure.csproj",
+        "projectPath": "C:\\_projects\\Gaudi.Infrastructure\\src\\Gaudi.Infrastructure\\Gaudi.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\mitch\\.nuget\\packages\\",
-        "outputPath": "C:\\_projects\\Gaudi.Infrastructure\\Gaudi.Infrastructure\\Gaudi.Infrastructure\\obj\\",
+        "outputPath": "C:\\_projects\\Gaudi.Infrastructure\\src\\Gaudi.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mitch\\AppData\\Roaming\\NuGet\\NuGet.Config",

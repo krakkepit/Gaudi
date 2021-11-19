@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CWcEgDYIRA+uaE2RlFSoa5ivImcb+uOrOIvWC7F6etax6eFUCBCbRCQ9vso+wo6ubTCNmVQaAuOXRRvnoBOm3Q==",
+  "dgSpecHash": "O3s84d8Ky2TkbRXq7Os56RMbpCWjEnu8ah3TXOVYyUCGWwHEoUmBAj0QfmO8MgSEyrF3SSu5Gs6hdBTccjb/sA==",
   "success": true,
-  "projectFilePath": "C:\\_projects\\Gaudi.Infrastructure\\Gaudi.Infrastructure\\Gaudi.Infrastructure\\Gaudi.Infrastructure.csproj",
+  "projectFilePath": "C:\\_projects\\Gaudi.Infrastructure\\src\\Gaudi.Infrastructure\\Gaudi.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mitch\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\mitch\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
