@@ -1,0 +1,68 @@
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sw?
+*.DotSettings.user
+
+# Rudimentary VS Code ignores
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Dependencies
+node_modules
+
+# Log files
+*.log*
+
+# Mac OS ignores
+
+## General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Icon must end with two \r
+Icon
+
+
+## Thumbnails
+._*
+
+## Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+## Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+/.vs
+_NCrunch_OrientationDashboard
+*.v3.ncrunchsolution.*
+*.ncrunchsolution
+
+## Health Checks
+healthchecksdb
+
+coverage.json
+*.coverage
+
+#do not track because of secrets / development use
+.env
+.env.Development
+.env.Local
