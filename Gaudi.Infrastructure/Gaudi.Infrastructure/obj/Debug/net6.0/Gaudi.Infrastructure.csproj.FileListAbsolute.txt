@@ -1,0 +1,5 @@
+C:\_projects\Gaudi.Infrastructure\Gaudi.Infrastructure\Gaudi.Infrastructure\obj\Debug\net6.0\Gaudi.Infrastructure.csproj.AssemblyReference.cache
+C:\_projects\Gaudi.Infrastructure\Gaudi.Infrastructure\Gaudi.Infrastructure\obj\Debug\net6.0\Gaudi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\_projects\Gaudi.Infrastructure\Gaudi.Infrastructure\Gaudi.Infrastructure\obj\Debug\net6.0\Gaudi.Infrastructure.AssemblyInfoInputs.cache
+C:\_projects\Gaudi.Infrastructure\Gaudi.Infrastructure\Gaudi.Infrastructure\obj\Debug\net6.0\Gaudi.Infrastructure.AssemblyInfo.cs
+C:\_projects\Gaudi.Infrastructure\Gaudi.Infrastructure\Gaudi.Infrastructure\obj\Debug\net6.0\Gaudi.Infrastructure.csproj.CoreCompileInputs.cache
