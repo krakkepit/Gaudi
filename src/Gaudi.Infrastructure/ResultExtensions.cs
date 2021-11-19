@@ -1,4 +1,6 @@
-﻿namespace Gaudi.Infrastructure;
+﻿using System.Linq;
+
+namespace Gaudi.Infrastructure;
 
 public static class ResultExtensions
 {
@@ -27,4 +29,33 @@ public static class ResultExtensions
             ? Result.OK
             : Result.WithMessages(ValidationMessage.Error($"A request to an external client returned an unsuccessful status code:\nSTATUS {res.StatusCode}: {res.ReasonPhrase}"));
         });
+
+    public static async Task<Result> Then(this Task<Result> response, Task<Result> next)
+    {
+        var result = await response;
+        return (result.IsValid) ? await next : result;
+    }
+
+    public static async Task<Result<T>> ThenReturn<T>(this Task<Result> response, Result<T> next)
+    {
+        var result = await response;
+        return (result.IsValid) ? next : Result.WithMessages<T>(result.Messages);
+    }
+
+    public static async Task<Result<T>> Else<T>(this Task<Result<T>> response, Result<T> ifInvalid)
+    {
+        var result = await response;
+        if (result.IsValid)
+        {
+            return result;
+        }
+        if (ifInvalid.IsValid)
+        {
+            return ifInvalid;
+        }
+        return Result.WithMessages<T>(result.Messages.Concat(ifInvalid.Messages));
+    }
+
+    public static async Task<Result<T>> Else<T>(this Task<Result<T>> response, Task<Result<T>> ifInvalid)
+        => await Else(response, await ifInvalid);
 }
