@@ -108,6 +108,10 @@
               "target": "Package",
               "version": "[5.2.7, )"
             },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"

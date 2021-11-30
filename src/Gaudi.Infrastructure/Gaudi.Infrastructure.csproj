@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="MongoDB.Driver" Version="2.14.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Qowaiv.DomainModel" Version="0.1.6" />
     <PackageReference Include="Qowaiv.Validation.Abstractions" Version="0.1.2" />
