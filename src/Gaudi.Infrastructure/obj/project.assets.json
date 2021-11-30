@@ -15,6 +15,15 @@
           "lib/netstandard2.0/System.Net.Http.Formatting.dll": {}
         }
       },
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -115,6 +124,20 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "Qowaiv.DomainModel/0.1.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Qowaiv.Validation.Abstractions": "0.1.1",
+          "Qowaiv.Validation.Guarding": "0.1.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Qowaiv.DomainModel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Qowaiv.DomainModel.dll": {}
+        }
+      },
       "Qowaiv.Validation.Abstractions/0.1.2": {
         "type": "package",
         "compile": {
@@ -127,6 +150,31 @@
           "lib/netstandard2.0/nl/Qowaiv.Validation.Abstractions.resources.dll": {
             "locale": "nl"
           }
+        }
+      },
+      "Qowaiv.Validation.Guarding/0.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Qowaiv.Validation.Abstractions": "0.1.1",
+          "Qowaiv.Validation.Messages": "0.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Qowaiv.Validation.Guarding.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Qowaiv.Validation.Guarding.dll": {}
+        }
+      },
+      "Qowaiv.Validation.Messages/0.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Qowaiv.Validation.Abstractions": "0.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Qowaiv.Validation.Messages.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Qowaiv.Validation.Messages.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -1238,6 +1286,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Gaudi.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Qowaiv.DomainModel": "0.1.6"
+        },
+        "compile": {
+          "bin/placeholder/Gaudi.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Gaudi.Domain.dll": {}
+        }
       }
     }
   },
@@ -1257,6 +1318,75 @@
         "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
         "microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
         "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "type": "package",
+      "path": "microsoft.csharp/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
@@ -1382,6 +1512,20 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
+    "Qowaiv.DomainModel/0.1.6": {
+      "sha512": "FFHiRerJn0Zxqk7J60UJEAyBPBaLYaBRWfeVhoxK3RcBQmPlsEODkrofh/qWLv5IsB7xT1YlaIyycQ955Aam+w==",
+      "type": "package",
+      "path": "qowaiv.domainmodel/0.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Qowaiv.DomainModel.dll",
+        "lib/netstandard2.0/Qowaiv.DomainModel.xml",
+        "package-icon.png",
+        "qowaiv.domainmodel.0.1.6.nupkg.sha512",
+        "qowaiv.domainmodel.nuspec"
+      ]
+    },
     "Qowaiv.Validation.Abstractions/0.1.2": {
       "sha512": "HvkzfxiNSwjWAbpJPGmhS//U+ZDZy++bFY9qpgb6IgazlRAXTb7hkgMvmHJfYER+iPCX5ggOjbr4zRGCdYWhkQ==",
       "type": "package",
@@ -1395,6 +1539,34 @@
         "package-icon.png",
         "qowaiv.validation.abstractions.0.1.2.nupkg.sha512",
         "qowaiv.validation.abstractions.nuspec"
+      ]
+    },
+    "Qowaiv.Validation.Guarding/0.1.2": {
+      "sha512": "j9SIKFq8GjGDpNepsRRZ8hQB5K5bGYGOeScXmCHsFT2aUUOIAcj0jEKCg0Bq+X+Ym/d11pcWw7dFOu+v2fbs+Q==",
+      "type": "package",
+      "path": "qowaiv.validation.guarding/0.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Qowaiv.Validation.Guarding.dll",
+        "lib/netstandard2.0/Qowaiv.Validation.Guarding.xml",
+        "package-icon.png",
+        "qowaiv.validation.guarding.0.1.2.nupkg.sha512",
+        "qowaiv.validation.guarding.nuspec"
+      ]
+    },
+    "Qowaiv.Validation.Messages/0.1.0": {
+      "sha512": "P2Txi5xg6by7pIU1V/UQkzF4HwYDS1f+nwPkEBk3I3THyAxYaLHD6z8iVDqDdwxPexs64o2pSqZIy2TVO0eaJQ==",
+      "type": "package",
+      "path": "qowaiv.validation.messages/0.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Qowaiv.Validation.Messages.dll",
+        "lib/netstandard2.0/Qowaiv.Validation.Messages.xml",
+        "package-icon.png",
+        "qowaiv.validation.messages.0.1.0.nupkg.sha512",
+        "qowaiv.validation.messages.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -4584,12 +4756,19 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Gaudi.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Gaudi.Domain/Gaudi.Domain.csproj",
+      "msbuildProject": "../Gaudi.Domain/Gaudi.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Gaudi.Domain >= 1.0.0",
       "Microsoft.AspNet.WebApi.Client >= 5.2.7",
       "Newtonsoft.Json >= 13.0.1",
+      "Qowaiv.DomainModel >= 0.1.6",
       "Qowaiv.Validation.Abstractions >= 0.1.2"
     ]
   },
@@ -4599,11 +4778,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_projects\\Gaudi.Infrastructure\\src\\Gaudi.Infrastructure\\Gaudi.Infrastructure.csproj",
+      "projectUniqueName": "C:\\_projects\\Gaudi\\src\\Gaudi.Infrastructure\\Gaudi.Infrastructure.csproj",
       "projectName": "Gaudi.Infrastructure",
-      "projectPath": "C:\\_projects\\Gaudi.Infrastructure\\src\\Gaudi.Infrastructure\\Gaudi.Infrastructure.csproj",
+      "projectPath": "C:\\_projects\\Gaudi\\src\\Gaudi.Infrastructure\\Gaudi.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\mitch\\.nuget\\packages\\",
-      "outputPath": "C:\\_projects\\Gaudi.Infrastructure\\src\\Gaudi.Infrastructure\\obj\\",
+      "outputPath": "C:\\_projects\\Gaudi\\src\\Gaudi.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mitch\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4619,7 +4798,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\_projects\\Gaudi\\src\\Gaudi.Domain\\Gaudi.Domain.csproj": {
+              "projectPath": "C:\\_projects\\Gaudi\\src\\Gaudi.Domain\\Gaudi.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -4639,6 +4822,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "Qowaiv.DomainModel": {
+            "target": "Package",
+            "version": "[0.1.6, )"
           },
           "Qowaiv.Validation.Abstractions": {
             "target": "Package",
